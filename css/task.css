@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+
+.hrow{
+    margin-bottom: 8em;
+}
+
+.landing{
+    height: 70vh;
+    background-color:violet ;
+}
+
+.next{
+    margin: 3em;
+    margin-right: 4em;
+    height: auto;
+}
+
+.colorWhite{
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em !important;
+    padding-right: 1em !important;
+}
+
+.btn1{
+    background-color: white !important ;
+    border-color: white!important;
+    color: black!important;
+    border-radius: 0em!important;
+}
+
+.waiting{
+    margin-bottom: 2em;
+}
+
+.fb{
+    font-weight: 350;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.nav-link {
+    color: #fff;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.3em;
+}
+.navbar .nav-link{
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.want{
+    background-color: green;
+}
+.post{
+    background-color: blue;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+    .want{
+        background-color:transparent;
+    }
+    .post{
+        background-color: transparent;
+    }
+    .landing{
+        height: auto !important;
+    }
+    .hrow{
+        margin-bottom: 7em!important;
+    }
+    .tc{
+        text-align: center!important;
+    }
+    .colorWhite{
+        background-color: transparent;
+        text-align: center!important;
+    }
+    .form-control{
+        width: 60% !important;
+        text-align: center!important;
+        margin-left: 5em!important;
+    }
+    .setwidth1{
+        width: 540%!important;
+    }
+    .setwidth2{
+        width: 80%!important;
+        margin-left: 7em!important;
+    }
+    .setwidth3{
+        width: 80%!important;
+        margin-left: 7em!important;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+}

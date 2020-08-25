@@ -1,0 +1,99 @@
+body{
+    background-color: violet;
+}
+
+.container{
+	margin-top: 30px;
+}
+.head2{
+    padding-bottom: 40px;
+}
+
+#colFormLabelSm{
+    border-radius: 15px;
+}
+
+.hrow{
+    margin-bottom: 12em;
+}
+
+.form_para{
+    font-weight: 200;
+}
+
+body{
+    font-weight: 500;
+}
+
+#form_submit{
+    border-radius: 20px;
+}
+
+#form_submit{
+    font-weight: 500;
+    font-size: 1.3em;
+    background-color: black;
+    border-color: black;
+}
+
+.textr{
+    text-align: right !important;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.nav-link {
+    color:black;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.3em;
+}
+.navbar .nav-link{
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.want{
+    background-color: green;
+}
+.post{
+    background-color: blue;
+}
+
+
+@media only screen and (max-width: 786px) {
+    .container{
+        margin-top: 30px;
+    }
+    .form-heading{
+        font-size: 2em;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        }
+   .textr{
+    text-align: center!important;
+       font-size: 1.2em;
+       font-weight: 400;
+}
+.navbar {
+    background: #fff;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: #555;
+}
+}
